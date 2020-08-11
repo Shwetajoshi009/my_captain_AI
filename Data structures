@@ -1,0 +1,17 @@
+#Data structures
+#assigning elements to lists
+list1=[1,2,3]
+list1.append(4)
+list2=['a','b','c']
+list2[2]='d'
+
+#accessing elements from tuple
+tup1=(2,3,5,7,4)
+print(tup1[2])
+print(tup1[0]+tup1[-1])
+
+#deleting elemnts from dictionary
+dict1={'apple':1, 'orange':2, 'strawberry':3, 'plum':4}
+del dict1['apple']
+dict1.pop('orange')
+print(dict1)
