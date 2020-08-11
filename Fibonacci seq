@@ -1,0 +1,9 @@
+#Fibonacci sequence
+n=int(input("n="))
+a=[1,1]
+i=0
+while i < (n-2):
+    x=a[-1]+a[-2]
+    a.append(x)
+    i+=1
+print(a)
