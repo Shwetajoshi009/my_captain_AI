@@ -1,0 +1,8 @@
+#Positive numbers
+n=int(input())
+a=list(map(int, input().split()))[:n]
+b=[]
+for i in a:
+    if i>0:
+        b.append(i)
+print(b)
